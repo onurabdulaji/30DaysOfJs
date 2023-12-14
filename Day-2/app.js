@@ -162,17 +162,17 @@
 
 
 // Farklı veri türlerini oluşturma
-let space = ' '
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
-let language = 'JavaScript'
-let job = 'teacher'
-let age = 250
+// let space = ' '
+// let firstName = 'Asabeneh'
+// let lastName = 'Yetayeh'
+// let country = 'Finland'
+// let city = 'Helsinki'
+// let language = 'JavaScript'
+// let job = 'teacher'
+// let age = 250
 
 
-let fullName = firstName + space + lastName
-let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 toplama operatörü ile değişkenleri birleştiriyor
+// let fullName = firstName + space + lastName
+// let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 toplama operatörü ile değişkenleri birleştiriyor
 
-console.log(personInfoOne)
+// console.log(personInfoOne)
