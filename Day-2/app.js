@@ -135,3 +135,44 @@
 
 
 
+// Strings
+
+// Dizeler tek, çift ve ters tırnak arasındaki metinlerdir.Bir dize bildirmek için değişken adına, atama operatörüne,
+// tek tırnak, çift tırnak veya ters tırnak içerisinde bir değere ihtiyacımız var.Bazı dize örnekleri görelim:
+
+// let space = ' '           // boş alan string tek tırnaklı
+// let firstName = 'Asabeneh' // tek tırnaklı string
+// let lastName = 'Yetayeh' // tek tırnaklı string
+// let country = 'Finland' // tek tırnaklı string
+// let city = 'Helsinki' // tek tırnaklı string
+// let language = 'JavaScript' // tk tırnaklı string
+// let job = 'teacher' // tek tırnaklı string
+// let quote = "The saying,'Seeing is Believing' is not correct in 2020." // çift tırnaklı string
+// let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.` // ters tırnaklı string (bu karakteri genellikle klavyenizdeki noktalı virgülü kullanarak yaparsınız. Benim klavyemde alt gr + noktalı virgül ve iki kere tıklanınca çıkıyor)
+
+// // String Birleştirme.
+
+// // İki veya daha fazla string'i birbirine bağlama işlemine birleştirme denir. Yukarda bulunan string örneklerini kullanarak:
+
+// let fullName = firstName + space + lastName; // birleştirme, iki string'i bir araya getirme.
+// console.log(fullName);
+
+// let fullName = firstName + space + lastName
+
+
+
+// Farklı veri türlerini oluşturma
+let space = ' '
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh'
+let country = 'Finland'
+let city = 'Helsinki'
+let language = 'JavaScript'
+let job = 'teacher'
+let age = 250
+
+
+let fullName = firstName + space + lastName
+let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 toplama operatörü ile değişkenleri birleştiriyor
+
+console.log(personInfoOne)
