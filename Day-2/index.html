@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+    <body>
+
+        <h1>Veri Türleri</h1>
+        <h2>Bir Önceki bölümde, veri türlerinden biraz bahsettik. Veri veya değerlerin (veri) türleri vardır. Veri
+            türleri,
+            verilerin özelliklerini tanımlar. Veri türleri ikiye ayrılabilir:
+        </h2>
+
+        <h3>İlkel veri türleri <br>
+            İlkel olmayan veri türleri (Nesne Referansları)</h3>
+
+        <h2>İlkel Veri Türleri</h2>
+        <h3>JavaScript'teki ilkel veri türleri şunları içerir:
+        </h3>
+        <ul>
+            <li>String</li>
+            <li>Number</li>
+            <li>Boolean</li>
+            <li>Null</li>
+            <li>Undefined</li>
+            <li>Symbol</li>
+        </ul>
+        <strong> JavaScript'teki ilkel olmayan veri türleri şunları içerir:
+        </strong>
+        <ul>
+            <li>Objects ( Nesneler )
+            </li>
+            <li>Arrays ( Diziler )
+            </li>
+        </ul>
+
+        <h3>Şimdi ilkel ve ilkel olmayan veri türlerinin tam olarak ne anlama geldiğini görelim. İlkel veri türleri
+            değişmez
+            (değiştirilemez) veri türleridir. İlkel bir veri türü oluşturulduktan sonra onu değiştiremeyiz.</h3>
+        <code>let word = 'JavaScript'</code>
+        <br>
+        <strong>word değişkeninde saklanan dizeyi değiştirmeye çalışırsak JavaScript bir hata vermelidir. Tek, çift veya
+            ters tırnak
+            arasındaki herhangi bir veri türü, dize veri türüdür</strong>
+        <br>
+        <code>word[0] = 'Y'
+        </code>
+        <p>Bu ifade word değişkeninde saklanan dizeyi değiştirmez. Yani, string'lerin değiştirilemez ya da başka bir
+            deyişle
+            değişmez olduğunu söyleyebiliriz. İlkel veri türleri değerlerine göre karşılaştırılır. Farklı veri
+            değerlerini
+            karşılaştıralım.
+        </p>
+        <code>let numOne = 3 <br>
+            let numTwo = 3</code>
+        <br>
+        <code>console.log(numOne == numTwo) // true ( Burada iki değişkende 3 e eşit olduğu için birbirine eşit olduğu
+            sonucu çıkıyor
+            )
+        </code>
+
+
+        <script src='app.js'></script>
+    </body>
+</html>
